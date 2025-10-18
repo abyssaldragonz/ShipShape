@@ -1,0 +1,17 @@
+---
+import "../styles/global.css";
+
+interface Props {
+	title: string;
+	description: string;
+	image: string;
+    linkedin: string;
+    github: string;
+}
+
+const { title, description, image, linkedin, github } = Astro.props;
+---
+
+<h1 class="text-3xl font-bold underline">
+    Hello world!
+</h1>
